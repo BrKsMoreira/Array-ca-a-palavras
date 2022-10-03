@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz</title>
+</head>
+<body>
+
+        <script>
+            matriz = new Array;
+
+            matriz = [["G", "I", "T", "O", "N", "A", "P", "C", "C", "L", "S", "A"],
+            ["U", "C", "I", "S", "N", "R", "W", "N", "H", "D", "R", "R"],
+            ["I", "N", "E", "O", "E", "E", "I", "G", "T", "A", "W", "T"],
+            ["L", "E", "M", "A", "L", "K", "A", "I", "Q", "U", "E", "S"],
+            ["H", "P", "I", "D", "K", "N", "R", "C", "E", "G", "O", "D"],
+            ["E", "N", "E", "I", "O", "O", "T", "A", "A", "U", "S", "C"],
+            ["R", "R", "F", "D", "V", "A", "I", "R", "W", "S", "E", "N"],
+            ["M", "G", "A", "B", "R", "I", "E", "L", "A", "T", "C", "A"],
+            ["E", "O", "P", "T", "A", "O", "H", "O", "M", "O", "L", "R"],
+            ["E", "A", "H", "S", "E", "U", "M", "S", "T", "G", "O", "U"],
+            ["E", "U", "E", "O", "U", "W", "N", "J", "U", "L", "I", "A"],
+            ["R", "R", "D", "N", "E", "A", "I", "I", "R", "H", "W", "C"]];
+
+                for(linha = 0; linha < 12; linha++)
+                    {
+                        for(coluna = 0; coluna < 12; coluna++)
+                            {
+                                document.write("<table border='1px' height='30' width='30'>" + "<tr>" + "<td>" + matriz[linha][coluna] + "</td>" + "</tr>" + "</table>");
+                            }
+                        document.write("<br>");    
+                    }
+        </script>
+</body>
+</html>
